@@ -20,7 +20,8 @@ public class answerService {
 
 
     public answer createAnswer(answer Answer) {
-        return answerrepository.save(Answer);
+        answerList.add(Answer);
+    return answerrepository.save(Answer);
     }
 
 
